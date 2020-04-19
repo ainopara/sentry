@@ -30,7 +30,7 @@ class FrameFunctionName extends React.Component<Props, State> {
   };
 
   state = {
-    rawFunction: false,
+    rawFunction: true,
   };
 
   toggle = (event: React.MouseEvent<HTMLAnchorElement>) => {

@@ -39,7 +39,7 @@ class StacktraceInterface extends React.Component {
   constructor(...args) {
     super(...args);
     this.state = {
-      stackView: this.props.data.hasSystemFrames ? 'app' : 'full',
+      stackView: 'full',
       newestFirst: isStacktraceNewestFirst(),
     };
   }
